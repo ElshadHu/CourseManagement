@@ -1,0 +1,12 @@
+release/ActivityManager.o
+release/Course.o
+release/CourseActivity.o
+release/GradableActivity.o
+release/Person.o
+release/Professor.o
+release/Student.o
+release/System.o
+release/UngradableActivity.o
+release/main.o
+release/mainwindow.o
+release/moc_mainwindow.o

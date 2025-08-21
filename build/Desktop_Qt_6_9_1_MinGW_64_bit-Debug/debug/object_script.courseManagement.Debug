@@ -1,0 +1,12 @@
+debug/ActivityManager.o
+debug/Course.o
+debug/CourseActivity.o
+debug/GradableActivity.o
+debug/Person.o
+debug/Professor.o
+debug/Student.o
+debug/System.o
+debug/UngradableActivity.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_mainwindow.o

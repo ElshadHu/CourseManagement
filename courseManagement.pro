@@ -12,7 +12,6 @@ SOURCES += \
     ActivityManager.cpp \
     Course.cpp \
     CourseActivity.cpp \
-    DbWorker.cpp \
     GradableActivity.cpp \
     Person.cpp \
     Professor.cpp \
@@ -27,14 +26,14 @@ HEADERS += \
     Course.h \
     CourseActivity.h \
     DbManager.h \
-    DbWorker.h \
     GradableActivity.h \
     Person.h \
     Professor.h \
     Student.h \
     System.h \
     UngradableActivity.h \
-    mainwindow.h
+    mainwindow.h \
+    serviceLayer.h
 
 FORMS += \
     mainwindow.ui

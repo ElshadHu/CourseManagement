@@ -53,15 +53,6 @@ namespace common {
     }
 
 
-    //sometimes for changing some times read only that is why it is created like that
-    activity::ActivityManager& Course:: activities() {
-        return m_activityMngr;
-    }
-
-    const activity::ActivityManager& Course:: activities() const {
-        return m_activityMngr;
-    }
-
     std::shared_ptr<Student> Course::findStudentById(std::string_view id) const{
         for(auto&weakStudent:m_chosenStudents){
             if(auto s = weakStudent.lock()){

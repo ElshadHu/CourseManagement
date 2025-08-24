@@ -5,8 +5,7 @@
 #include <string_view>
 #include <vector>
 #include <memory>
-#include <iostream>
-#include "ActivityManager.h"
+// #include <iostream>
 // #include "Professor.h"
 
 namespace common {
@@ -18,7 +17,7 @@ class Course {
     std::string m_courseCode;
     std::vector<std::weak_ptr<Student>> m_chosenStudents;
     std::vector< std::weak_ptr<Professor>>m_chosenProfessor;
-    activity::ActivityManager m_activityMngr;
+
 
 public:
     Course(std::string_view courseName, std::string_view courseCode);
@@ -28,11 +27,6 @@ public:
     std::string getCourseCode() const;
     void print() const;
 
-    //added for managing activities
-    //the main difference between  them is that compiler will choose wheter it is only for reading or it is need to write something on it
-    activity::ActivityManager&activities();
-    const activity::ActivityManager&activities() const;
-    //temporary i will conver weak pointer into shared pointer in order to return it back wheter it exists or not then i will use in the professor class
     std::shared_ptr<Student>findStudentById(std::string_view id)const;
 
 };

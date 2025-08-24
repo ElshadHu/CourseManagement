@@ -9,31 +9,25 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    ActivityManager.cpp \
     Course.cpp \
-    CourseActivity.cpp \
-    GradableActivity.cpp \
     Person.cpp \
     Professor.cpp \
     Student.cpp \
     System.cpp \
-    UngradableActivity.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
-    ActivityManager.h \
+    AcitivitySystem.h \
+    ActivityTypes.h \
     Course.h \
-    CourseActivity.h \
     DbManager.h \
-    GradableActivity.h \
     Person.h \
     Professor.h \
+    ServiceLayer.h \
     Student.h \
     System.h \
-    UngradableActivity.h \
-    mainwindow.h \
-    serviceLayer.h
+    mainwindow.h
 
 FORMS += \
     mainwindow.ui

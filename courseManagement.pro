@@ -15,7 +15,8 @@ SOURCES += \
     Student.cpp \
     System.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    serviceLayerActivity.cpp
 
 HEADERS += \
     AcitivitySystem.h \
@@ -27,7 +28,8 @@ HEADERS += \
     ServiceLayer.h \
     Student.h \
     System.h \
-    mainwindow.h
+    mainwindow.h \
+    serviceLayerActivity.h
 
 FORMS += \
     mainwindow.ui

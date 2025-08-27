@@ -29,7 +29,7 @@ public:
         q.exec("PRAGMA synchronous = NORMAL;");
         return true;
     }
-    QSqlDatabase db(){return db_;}
+    QSqlDatabase& db(){return db_;}
 
 };
 

@@ -1,5 +1,5 @@
-#ifndef ACITIVITYSYSTEM_H
-#define ACITIVITYSYSTEM_H
+#ifndef ACTIVITYSYSTEM_H
+#define ACTIVITYSYSTEM_H
 #include <unordered_map>
 #include <iostream>
 #include <string>
@@ -9,4 +9,4 @@ namespace ActivitySystem{
 
 
 }
-#endif // ACITIVITYSYSTEM_H
+#endif // ACTIVITYSYSTEM_H
